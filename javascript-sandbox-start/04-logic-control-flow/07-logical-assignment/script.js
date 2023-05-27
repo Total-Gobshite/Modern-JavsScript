@@ -2,6 +2,8 @@
 // &&= assigns the right side value only if the left is a truthy value.
 // ??= assigns the right side value only if the left is a null or undefined.
 
+
+// ------------------------------------------------------------------
 // ||= assigns the right side value only if the left is a falsy value.
 console.log('------ ||= assigns the right side value only if the left is a falsy value. ------');
 let a = false; // falsy value
@@ -19,6 +21,8 @@ a = false;
 a ||= 69; // if left-side is falsy, assign right-side value to a
 console.log(a); // 69
 
+
+// ------------------------------------------------------------------
 // &&= assigns the right side value only if the left is a truthy value.
 console.log('------ &&= assigns the right side value only if the left is a truthy value. ------');
 let b = 10; // truthy value
@@ -36,6 +40,8 @@ b = 10; // truthy value
 b &&= 69; // if left-side is truthy, assign right-side value to b
 console.log(b); // 69
 
+
+// ------------------------------------------------------------------
 // ??= assigns the right side value only if the left is a null or undefined.
 console.log('------ ??= assigns the right side value only if the left is a null or undefined. ------');
 let c = null; // null value
