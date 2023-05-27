@@ -52,5 +52,5 @@ const auth2 = true;
 
 auth2 ? console.log('Welcome to the dashboard') : null; // could specify do nothing if false
 
-auth && console.log('Welcome to the dashboard'); // remember in logical assignment, && actions (not assigning here) the right side value only if the left is a truthy value.
+auth && console.log('Welcome to the dashboard'); // remember in logical assignment, && action the right side value only if the left is a truthy value.
 console.log(auth);

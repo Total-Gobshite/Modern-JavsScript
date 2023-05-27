@@ -1,10 +1,10 @@
-// ||= assigns the right side value only if the left is a falsy value.
-// &&= assigns the right side value only if the left is a truthy value.
-// ??= assigns the right side value only if the left is a null or undefined.
+// ||= assigns/actions the right side value only if the left is a falsy value.
+// &&= assigns/actions the right side value only if the left is a truthy value.
+// ??= assigns/actions the right side value only if the left is a null or undefined.
 
 
 // ------------------------------------------------------------------
-// ||= assigns the right side value only if the left is a falsy value.
+// ||= assigns/actions the right side value only if the left is a falsy value.
 console.log('------ ||= assigns the right side value only if the left is a falsy value. ------');
 let a = false; // falsy value
 
@@ -23,7 +23,7 @@ console.log(a); // 69
 
 
 // ------------------------------------------------------------------
-// &&= assigns the right side value only if the left is a truthy value.
+// &&= assigns/actions the right side value only if the left is a truthy value.
 console.log('------ &&= assigns the right side value only if the left is a truthy value. ------');
 let b = 10; // truthy value
 
@@ -42,7 +42,7 @@ console.log(b); // 69
 
 
 // ------------------------------------------------------------------
-// ??= assigns the right side value only if the left is a null or undefined.
+// ??= assigns/actions the right side value only if the left is a null or undefined.
 console.log('------ ??= assigns the right side value only if the left is a null or undefined. ------');
 let c = null; // null value
 
