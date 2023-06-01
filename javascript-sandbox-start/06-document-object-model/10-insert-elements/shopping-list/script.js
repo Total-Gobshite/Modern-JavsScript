@@ -38,6 +38,7 @@ function insertBeforeItem() {
 
   const thirdItem = document.querySelector('li:nth-child(3)');
   ul.insertBefore(li, thirdItem); // parameters: element to insert, element to insert before
+  // insertBefore is a method on the parent element!!
 }
 insertBeforeItem();
 
