@@ -13,6 +13,7 @@
 
 const socialNetworks = ['youtube', 'facebook', 'twitter', 'instagram', 'tiktok', 'linkedin'];
 
+// proto vs prototype
 // console.log(socialNetworks.__proto__); // can see all methods & properties on any object
 // console.dir(socialNetworks); // another way of seeing all methods & properties on any object
 console.log(Object.getPrototypeOf(socialNetworks)); // Use this instead of __proto__ to see all methods & properties on any object
